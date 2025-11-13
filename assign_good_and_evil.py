@@ -1,7 +1,7 @@
 from collections import deque
 def assign_good_and_evil(graph):
     labels = {}
-    nodes = graph.nodes()
+    nodes = graph.nodes
     for start_node in nodes:
         if start_node in labels:
             continue
